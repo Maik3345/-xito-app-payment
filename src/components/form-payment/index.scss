@@ -1,0 +1,156 @@
+// Estilos para el Formulario de payment
+.comment-text {
+    color: rgb(126, 126, 126);
+    padding: 0px 0px 10px 0px;
+    text-align: left;
+}
+
+.normal-text {
+    color: rgb(126, 126, 126);
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/* Estilos para el formulario de pago */
+
+.payment-content {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    position: relative;
+}
+
+// Mensaje de error para el payment
+.payment-error {
+    & p {
+        margin: 5px;
+    }
+}
+
+// Contenedores de los inputs del payment
+.cont-input-payment {
+    & .title-input {
+        margin-bottom: 5px;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: left;
+        display: block;
+    }
+}
+
+.credit-card-accepted {
+    & p {
+        font-size: 18px;
+    }
+}
+
+.payment-button {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.item-error-payment {
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.item-icons-payment {
+    margin-bottom: 15px;
+}
+
+.list-succes-card {
+    font-size: 14px;
+    padding: 5px 8px;
+}
+
+.payment-button {
+    & .btn {
+        width: 100%;
+        height: 60px;
+        font-size: 19px;
+        border-radius: 0px;
+        background-color: rgb(50, 185, 101);
+    }
+}
+
+.error-payment-message {
+    margin: 0px;
+}
+
+.error-payment-message {
+    & p {
+        margin: 20px 0px 20px 0px;
+        color: #a94442;
+        /* font-weight: bold; */
+        font-size: 85%;
+    }
+}
+
+.payment-cards-icons {
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.payment-cards-icons {
+    & p {
+        color: #6c757d;
+        margin: 0px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 10px;
+        font-family: arial, helvetica, sans-serif;
+    }
+}
+
+.payment-cards-icons {
+    &:before {
+        font-size: 30px;
+        color: #6c757d;
+    }
+}
+
+.hidden-options-payment {
+    display: none !important;
+}
+
+.request-credit-card-number {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 500;
+}
+
+.iframe-payment {
+    border: none;
+    max-width: 800px;
+    min-width: 30px;
+    height: 160px;
+    width: 100%
+}
+
+/* Estilos para los inputs de hpci */
+
+/* Input credit card */
+
+/* margin-top: 7.3px;
+height: 22.0px;
+padding: 8px;
+font-size: 18.0px;
+line-height: 1.3333333;
+border-radius: 6.0px;
+border: 1.0px solid rgb(204,204,204);
+width: 100%; */
+
+/* Input código seguridad */
+
+/* margin-top: 7.3px;
+height: 22.0px;
+padding: 8px;
+font-size: 18.0px;
+line-height: 1.3333333;
+border-radius: 6.0px;
+border: 1.0px solid rgb(204, 204, 204);
+width: 85px; */

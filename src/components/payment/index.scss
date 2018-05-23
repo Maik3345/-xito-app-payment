@@ -1,0 +1,18 @@
+.title-payment {
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.credit-card-accepted {
+    & .title {
+        text-align: left;
+        font-weight: 300;
+    }
+    & .credit-cards-methods {
+        margin-bottom: 10px;
+        width: 260px;
+        overflow: hidden;
+    }
+}
